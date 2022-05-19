@@ -12,8 +12,17 @@ const Projects = () => {
 
  
 
-  const handleClick = (url) => {
-    window.open(url);
+  const Portfolio = () => {
+    window.open(portfolio);
+  };
+  const TodoApp = () => {
+    window.open(todoApp);
+  };
+  const MySite= () => {
+    window.open(mySite);
+  };
+  const WeatherApp = () => {
+    window.open(weatherApp);
   };
 
   return (
@@ -38,7 +47,7 @@ const Projects = () => {
             src={portfolio}
           ></iframe>
           <button
-            onClick={handleClick}
+            onClick={Portfolio}
             className="bg-sky-900 hover:bg-sky-700 font-bold p-3 rounded-lg"
           >
             Portfolio
@@ -56,7 +65,7 @@ const Projects = () => {
             src={todoApp}
           ></iframe>
           <button
-            onClick={handleClick}
+            onClick={TodoApp}
             className="bg-sky-900 hover:bg-sky-700 font-bold p-3 rounded-lg"
           >
             Todo App
@@ -74,7 +83,7 @@ const Projects = () => {
             src={weatherApp}
           ></iframe>
           <button
-            onClick={handleClick}
+            onClick={WeatherApp}
             className="bg-sky-900 hover:bg-sky-700 font-bold p-3 rounded-lg"
           >
             WeatherApp
@@ -92,13 +101,13 @@ const Projects = () => {
             src={mySite}
           ></iframe>
           <button
-            onClick={handleClick}
+            onClick={MySite}
             className="bg-sky-900 hover:bg-sky-700 font-bold p-3 rounded-lg"
           >
             My Website
           </button>
         </div>
-        <div className=" bg-teal-700 pb-4 mb-2 rounded-2xl rounded-br-2xl">
+        {/* <div className=" bg-teal-700 pb-4 mb-2 rounded-2xl rounded-br-2xl">
           <iframe
             height="200"
             width="400"
@@ -133,7 +142,7 @@ const Projects = () => {
           >
             WeatherApp
           </button>
-        </div>
+        </div> */}
       </div>
       {/* End of iframes */}
     </div>
