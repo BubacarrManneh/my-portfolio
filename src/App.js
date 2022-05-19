@@ -7,6 +7,7 @@ import Projects from './Pages/Projects'
 function App() {
   return (
     <div className="App">
+      {/* Route to the pages */}
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -15,6 +16,7 @@ function App() {
           <Route path="/Projects" element={<Projects />} />
         </Routes>
       </Router>
+      {/* End of Route to the pages */}
     </div>
   );
 }

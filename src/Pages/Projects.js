@@ -24,6 +24,7 @@ const Projects = () => {
       <div className="bg-steal-900 bg-emerald-700">
         <Navbar />
       </div>
+      {/* Iframes */}
       <div className="justify-around flex flex-wrap pt-6">
         <div className=" bg-teal-700 pb-4 mb-2 rounded-2xl rounded-br-2xl">
           <iframe
@@ -134,6 +135,7 @@ const Projects = () => {
           </button>
         </div>
       </div>
+      {/* End of iframes */}
     </div>
   );
 };

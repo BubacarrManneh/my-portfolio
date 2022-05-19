@@ -10,7 +10,7 @@ const PorfileContent = () => {
       </h1>
       <div className="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-white opacity-50"></div>
       <p className="pt-4 lg:pl-4 text-base font-bold flex items-center justify-center lg:justify-start pl-4">
-        {/* Profession SVG */}
+        {/* Profession SVGs */}
         <svg
           version="1.1"
           id="Uploaded to svgrepo.com"
@@ -35,7 +35,7 @@ const PorfileContent = () => {
             />
           </g>
         </svg>
-        {/* End of Profession SVG */}
+        {/* End of Profession SVGs */}
         Full-Stack web developer and IT Technician
       </p>
       <p className="pt-4 pl-5 text-gray-300 text-xs lg:text-sm font-bold flex items-center justify-center lg:justify-start">

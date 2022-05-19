@@ -13,6 +13,7 @@ const Home = () => {
         style={{ backgroundImage: `url(${background})` }}
       >
         <Navbar />
+        {/* Profile photo and contents components */}
         <div
           className=" max-w-4xl flex items-center h-auto lg:h-screen mx-auto my-32
         lg:my-0 border-2 border-amber-700"
@@ -20,7 +21,7 @@ const Home = () => {
           <PorfileContent />
           <ProfilePhoto />
         </div>
-      </div>{" "}
+      </div>
     </div>
   );
 }
